@@ -46,7 +46,7 @@ const navigate = useNavigate()
       flexDirection="column"
       width="100wh"
       height="100vh"
-      backgroundColor="gray.200"
+      backgroundColor="#F4F1F1"
       justifyContent="center"
       alignItems="center"
     >
@@ -56,8 +56,8 @@ const navigate = useNavigate()
         justifyContent="center"
         alignItems="center"
       >
-        <Avatar bg="teal.500" />
-        <Heading color="teal.400">Welcome</Heading>
+        <Avatar bg="#CCB5D1" />
+        <Heading color="#CCB5D1">Welcome</Heading>
         <Box minW={{ base: "90%", md: "468px" }}>
           <form>
             <Stack
@@ -92,7 +92,8 @@ const navigate = useNavigate()
                 borderRadius={0}
                 type="submit"
                 variant="solid"
-                colorScheme="teal"
+                // colorScheme="#FED7D7"
+                color='#CCB5D1'
                 width="full"
                 onClick={sendHandel}
               >
