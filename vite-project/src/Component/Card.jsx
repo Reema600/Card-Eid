@@ -1,11 +1,11 @@
 
 import {useEffect,useState}from "react";
-import { Box, Flex, Link, chakra ,Image} from "@chakra-ui/react";
+import { Box, Flex, chakra ,Image} from "@chakra-ui/react";
 import axios from 'axios';
 export default function Card() {
   const [Data, setData] = useState([]);
-  const [name , setName]=useState("")
-  const [text,setText]=useState('')
+  // const [name , setName]=useState("")
+  // const [text,setText]=useState('')
   const id = localStorage.getItem('id')
 
 useEffect(()=>{
